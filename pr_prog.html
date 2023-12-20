@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ivan Buryakov's Web-Portfolio</title>
+	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans&display=swap" rel="stylesheet">
+	<link rel="icon" href="img/favicon.png" type="image/x-icon">
+	<link rel="shortcut icon" href="img/favicon3.png" type="image/x-icon">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="preloader">
+		<div class="loader"></div>
+	</div>
+	<script src="script.js"></script>
+	<header id="header" class="headerp_prog">
+		<div class="container">
+			<div class="nav">
+				<a href="index.html"><img src="img/logo3.svg" alt="Burning Man" class="logo"></a>
+				<ul class="menu">
+					<li>
+						<a href="index.html">
+							Home
+						</a>
+					</li>
+					<li>
+						<a href="about.html">
+							About
+						</a>
+					</li>
+					<li class="dropdown">
+						<a href="projects.html" class="dropbtn">Projects</a>
+						<div class="dropdown-content">
+							<a href="pr_prog.html">Programming</a>
+							<a href="pr_nn.html">Neural networks</a>
+						</div>
+					</li>
+					<li>
+						<a href="contacts.html">
+							Contacts
+						</a>
+					</li>
+				</ul>
+				<a class="hi">
+					Even a stopped clock is right twice a day!
+				</a>
+			</div>
+			<div class="offer">
+				<p>Programming</p>
+				<h1>
+					Web-Portfolio
+				</h1>
+				<!-- <a href="#" class="btn">Click on me ;)</a> -->
+				<i class="arrow-down">&#129175;</i>
+			</div>
+		</div>
+	</header>
+	<section id="about" class="about">
+		<div class="container">
+			<h2>About the discipline</h2>
+			<div class="description">
+				<div class="desc-left_prog">
+					<img src="img/home23.jpg" alt="Description of the image" class="image_prog">
+					<h3 style="text-align: center;">Laboratory work 1</h3>
+					<p style="text-indent: 25px;">
+						Реализуйте численное интегрирование, используя Thread, Lock для списка потоков, сформированного вручную. Создайте
+						функцию, которая создает список потоков, каждый из которых интегрирует функцию на подинтервалах. Используйте Lock для
+						доступа к переменной с интегральной суммой. Измерьте время вычислений с помощью модуля timeit и сравните результаты с
+						последовательными вычислениями в главном потоке. Предоставьте результаты в отчете. Ссылку на код предоставьте в ответе
+						на задание. &#x2605;
+					</p>
+					<div class="btn_container_prog">
+						<a href="https://github.com/Buryackov-Ivan/Prog-7SEM-2023/blob/main/LR_1/Laboratory_work_1.md"
+							class="btn_prog" target="_blank">Laboratory work 1</a>
+					</div>
+				</div>
+				<div class="desc-right_prog">
+					<img src="img/home23.jpg" alt="Description of the image" class="image_prog">
+					<h3 style="text-align: center;">Laboratory work 2</h3>
+					<p style="text-indent: 25px;">
+						Реализация потоков в Python: Напишите программу с созданием и выводом имен нескольких потоков, загрузите файлы,
+						выполняйте HTTP-запросы, вычисляйте факториал, и реализуйте многопоточную быструю сортировку.
+					</p>
+					<p style="text-indent: 25px;">
+						Concurrency и Futures: Дополните лабораторную работу №1, измерьте время выполнения с разным числом потоков и процессов.
+						Создайте банк с потоками и Lock, асинхронно скачивайте изображения, записывайте и считывайте данные из файла. Управляйте
+						событиями, реализуйте безопасную очередь с рекурсивным блокировщиком, сервер и клиент с Barrier. Параллельно ищите файл
+						в директории с синхронизацией потоков. &#x2605;
+					</p>
+					<div class="btn_container_prog">
+						<a href="https://github.com/Buryackov-Ivan/Prog-7SEM-2023/blob/main/LR_2/Laboratory_work_2.md"
+							class="btn_prog" target="_blank">Laboratory work 2</a>
+					</div>
+				</div>			
+			</div>
+			<div class="description">
+				<div class="desc-left_prog">
+					<img src="img/home23.jpg" alt="Description of the image" class="image_prog">
+					<h3 style="text-align: center;">Laboratory work 3</h3>
+					<p style="text-indent: 25px;">
+						Используя библиотеку Asyncio в Python, создайте асинхронную функцию, отображающую текущее время каждую секунду через
+						asyncio. Улучшите программу, выводя дату и время разными цветами с termcolor и добавив выход по клавише Esc с pynput.
+						Разработайте программу, использующую asyncio.gather для параллельного выполнения двух асинхронных задач. Параллельно
+						запросите веб-сервер и базу данных (например, RNACentral) с aiohttp и asyncpg. Создайте асинхронный веб-скрапер с
+						aiohttp и asyncio для данных из нескольких веб-страниц. Улучшите скрапер в класс-менеджер контекста, используя async
+						with внутри main через asyncio.run(main()). Реализуйте сервер и клиент с asyncio и HTTPS для обмена текстовыми
+						JSON-сообщениями в режиме echo. &#x2605;
+					</p>
+					<div class="btn_container_prog">
+						<a href="https://github.com/Buryackov-Ivan/Prog-7SEM-2023/blob/main/LR_3/Laboratory_work_3.md"
+							class="btn_prog" target="_blank">Laboratory work 3</a>
+					</div>
+				</div>
+				<div class="desc-right_prog">
+					<img src="img/home24.png" alt="Description of the image" class="image_prog">
+					<h3 style="text-align: center;">Laboratory work 4</h3>
+					<p style="text-indent: 25px;">
+						Выполнить все 7 частей туториала, опубликованного по ссылке:
+						<a href="https://docs.djangoproject.com/en/4.2/" target="_blank"><b><i>https://docs.djangoproject.com/en/4.2/</i></b></a>
+						и предоставить ссылку на репозиторий с кодом и собственными комментариями по выполнению этих этапов работы.
+					</p>
+					<div class="btn_container_prog">
+						<a href="https://github.com/Buryackov-Ivan/Prog-7SEM-2023/blob/main/LR_4/Laboratory_work_4.md"
+							class="btn_prog" target="_blank">Laboratory work 4</a>
+					</div>
+				</div>
+			</div>
+			<div class="description">
+				<div class="desc-left_prog">
+					<img src="img/home24.png" alt="Description of the image" class="image_prog">
+					<h3 style="text-align: center;">Laboratory work 5</h3>
+					<p style="text-indent: 25px;">
+						Улучшите приложение для голосований из предыдущей лабораторной работы в Django. Возьмите образец демонстрационного блога
+						из лекций и добавьте возможность создавать новые опросы через форму с полями для заголовка и вариантов ответа.
+						Реализуйте аутентификацию и регистрацию пользователей с использованием Django authentication system, создав
+						соответствующие страницы. Релизуйте также серверную часть. Документацию и дополнительные руководства по работе 
+						с формами логина и регистрации также рекомендуется изучить для более полного понимания.
+					</p>
+					<div class="btn_container_prog">
+						<a href="https://github.com/Buryackov-Ivan/Prog-7SEM-2023/blob/main/LR_5/Laboratory_work_5.md"
+							class="btn_prog" target="_blank">Laboratory work 5</a>
+					</div>
+				</div>
+				<div class="desc-right_prog">
+					<img src="img/home24.png" alt="Description of the image" class="image_prog">
+					<h3 style="text-align: center;">Laboratory work 6</h3>
+					<p style="text-indent: 25px;">
+						Улучшите приложение для голосований и предыдущей лабораторной работы #5 и реализуйте вход на сайт этого приложения
+						через стандарт OAuth, при условии что пользователь имеет учётную запись Google.
+						<!-- <br> -->
+						Воспользуйтесь следующими ссылками на образцы реализации данной схемы регистрации на сайте: <br>
+						<a href="https://pylessons.com/django-google-oauth"
+							target="_blank"><b><i>&#11162; Django Google OAuth</i></b></a>
+						<br>
+						<a href="https://dev.to/mdrhmn/django-google-authentication-using-django-allauth-18f8" 
+							target="_blank"><b><i>&#11162; Django Google Authentication using django­allauth</i></b></a>
+						<br>
+						<a href="https://www.hacksoft.io/blog/adding-google-login-to-your-existing-django-and-django-rest-framework-applications" 
+							target="_blank"><b><i>&#11162; Adding Google login to your existing Django and Django Rest Framework
+							applications</i></b></a>
+						<br>
+						<a href="https://anmol-garg.medium.com/adding-google-oauth-2-0-to-your-django-project-the-easy-way-9df3d87d16fd" 
+							target="_blank"><b><i>&#11162; Adding Google OAuth 2.0 to your Django project the easy
+							way</i></b></a>
+						(Нужен VPN)
+					</p>
+					<div class="btn_container_prog">
+						<a href="https://github.com/Buryackov-Ivan/Prog-7SEM-2023/blob/main/LR_6/Laboratory_work_6.md"
+							class="btn_prog" target="_blank">Laboratory work 6</a>
+					</div>
+				</div>
+			</div>
+			<div class="description">
+				<div class="desc-left_prog">
+					<img src="img/home24.png" alt="Description of the image" class="image_prog">
+					<h3 style="text-align: center;">Laboratory work 7</h3>
+					<p style="text-indent: 25px;">
+						Для улучшения приложения голосований в Django создайте микросервис с использованием Django Rest Framework (DRF) для
+						анализа результатов и предоставления статистики. Реализуйте функции, включая агрегацию данных о голосах, сортировку и
+						фильтрацию, графики, диаграммы и экспорт данных в форматах CSV или JSON. Интегрируйте страницу поиска голосований в
+						основное приложение с динамическим отображением статистики при выборе голосования. Обеспечьте анонимный доступ к
+						статистике без авторизации. Реализацию кода оставьте свободной. &#x2605;
+					</p>
+					<div class="btn_container_prog">
+						<a href="https://github.com/Buryackov-Ivan/Prog-7SEM-2023/blob/main/LR_7/Laboratory_work_7.md"
+							class="btn_prog" target="_blank">Laboratory work 7</a>
+					</div>
+				</div>
+				<div class="desc-right_prog">
+					<img src="img/home24.png" alt="Description of the image" class="image_prog">
+					<h3 style="text-align: center;">Laboratory work 8</h3>
+					<p style="text-indent: 25px;">
+						Прочитайте и выполните инструкции по созданию переиспользуемых приложений на джанго.
+						В качестве ответа приложите файл с "упакованным" приложением. Как альтернатива — выгрузите файл его в облачное хранилище
+						или в раздел Releases в Гитхаб того репозитория, где было размещено приложение.
+						На основе предложенных ниже статей и собственного изучения других материалов создайте контейнеризованный вариант
+						написанного приложения на Django.
+						<!-- <br> -->
+						Статьи для изучения: <br>
+						<a href="https://docs.docker.com/samples/django/" 
+							target="_blank"><b><i>&#11162; Django samples</i></b></a><br>
+						<a href="https://pythonru.com/uroki/docker-django" 
+							target="_blank"><b><i>&#11162; Запуск Django-приложения в Docker контейнере</i></b></a><br>
+						<a href="https://dev-gang.ru/article/naczalo-raboty-s-docker-i-django-73cvl13n55/"
+							target="_blank"><b><i>&#11162; Начало работы с Docker и Django</i></b></a>
+					</p>
+					<div class="btn_container_prog">
+						<a href="https://github.com/Buryackov-Ivan/Prog-7SEM-2023/blob/main/LR_8/Laboratory_work_8.md"
+							class="btn_prog" target="_blank">Laboratory work 8</a>
+					</div>
+				</div>
+			</div>
+			<div class="description">
+				<div class="desc_prog">
+					<img src="img/home25.png" alt="Description of the image" class="image_prog">
+					<h3 style="text-align: center;">Laboratory work 9</h3>
+					<p style="text-indent: 25px;">
+						Создайте одномодульный Java-проект с использованием Maven и Spring Boot. Это консольное приложение, принимающее в
+						аргументе командной строки название факультета, института или кафедры с сайта 
+						<a href="https://atlas.herzen.spb.ru/faculty.php" 
+							target="_blank"><b>Электронный атлас</b></a>
+						.
+					</p>
+					<p style="text-indent: 25px;">
+						Для конкретной кафедры извлеките URL из атрибута href HTML элемента --a class="alist" href="..."-- название кафедры --/a-- (-- &#11136; <>).
+						Затем распарсьте страницу кафедры и выведите на экран или сохраните в CSV файл данные из таблицы преподавателей.
+					</p>
+					<p style="text-indent: 25px;">
+						Если речь идёт о названии факультета или института, то надо в цикле распарсить всен страницы кафедр и получить данные о
+						всех преподавателях.
+					</p>
+					<p>
+						Рекомендации: <br>
+						
+						&#11162;Используйте видеоматериалы курса. <br>
+						&#11162;Установите WSL (Windows for Linux), 
+						<a href="https://git-scm.com/" target="_blank"><b>Git Bash</b></a>
+						 или 
+						<a href="https://www.cygwin.com/" target="_blank"><b>Cygwin</b></a>
+						 для эмуляции Bash Linux. <br>
+						&#11162;Установите 
+						<a href="https://sdkman.io/" 
+							target="_blank"><b>SDKMAN</b></a>
+						в Bash и используйте его для установки нужных версий Java (JDK), Maven и Spring Boot CLI. <br>
+						&#11162;Генерируйте базовый проект с помощью команды spring init --build maven --force. <br>
+						&#11162;Используйте JSoup для парсинга сайта, добавив его в зависимости в pom.xml. <br>
+						&#11162;Настройте IntelliJ IDEA на установленные JDK и Maven. <br>
+						&#11162;Опционально, установите библиотеки для SDKMAN, написанные на Rust. &#x2605;<br>
+					</p>
+					<div class="btn_container_prog">
+						<a href="https://github.com/Buryackov-Ivan/Prog-7SEM-2023/blob/main/LR_9/Laboratory_work_9.md"
+							class="btn_prog" target="_blank">Laboratory work 9</a>
+					</div>
+				</div>
+			</div>
+			<p>&#x2605; - The assignment was not provided accurately or in full format!</p>
+		</div>
+	</section>
+	<footer id="footer" class="footer">
+		<div class="container">
+			<div class="footer-text">
+				<p>
+					©2023 Web-Portfolio
+				</p>
+				<p>
+					Ivan Buryakov
+				</p>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ivan Buryakov's Web-Portfolio</title>
+	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans&display=swap" rel="stylesheet">
+	<link rel="icon" href="img/favicon.png" type="image/x-icon">
+	<link rel="shortcut icon" href="img/favicon3.png" type="image/x-icon"> 
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="preloader">
+		<div class="loader"></div>
+	</div>
+	<script src="script.js"></script>
+	<header id="header" class="headerp_nn">
+		<div class="container">
+			<div class="nav">
+				<a href="index.html"><img src="img/logo3.svg" alt="Burning Man" class="logo"></a>
+				<ul class="menu">
+					<li>
+						<a href="index.html">
+							Home
+						</a>
+					</li>
+					<li>
+						<a href="about.html">
+							About
+						</a>
+					</li>
+					<li class="dropdown">
+						<a href="projects.html" class="dropbtn">Projects</a>
+						<div class="dropdown-content">
+							<a href="pr_prog.html">Programming</a>
+							<a href="pr_nn.html">Neural networks</a>
+						</div>
+					</li>
+					<li>
+						<a href="contacts.html">
+							Contacts
+						</a>
+					</li>
+				</ul>
+				<a class="hi">
+					It's alive! It's alive!
+				</a>
+			</div>
+			<div class="offer">
+				<p>Neural networks</p>
+				<h1>
+					Web-Portfolio
+				</h1>
+				<!-- <a href="#" class="btn">Click on me ;)</a> -->
+				<i class="arrow-down">&#129175;</i>
+			</div>
+		</div>
+	</header>
+	<section id="about" class="about">
+		<div class="container">
+			<h2>About the discipline</h2>
+			<div class="description">
+				<div class="desc-left_prog">
+					<img src="img/home21.jpg" alt="Description of the image" class="image_prog">
+					<h3 style="text-align: center;">Laboratory work 1</h3>
+					<p style="text-indent: 25px;">
+						Создайте нейронную сеть, позволяющую классифицировать сотрудников организации как потенциально склонных к увольнению и
+						не собирающихся уволиться. В качестве образца для решения задачи использовать борд, где строится нейронная сеть с
+						распознанием рукописных цифр.
+					</p>
+					<p style="text-indent: 25px;">
+						Сделайте копию задания 
+						<a href="https://colab.research.google.com/drive/1OIrLFjIBIIsQ7a-Z8GsMH93HkevOjdbK?usp=sharing" target="_blank"
+							style="color: #000;"><b>s2p2-with-neural_network.ipynbb</b></a>,
+						получив собственный ноутбук с помощью сервиса Google Colab и
+						изучите материал, представленный в ноутбуке.
+						Выполните все ячейки в ноутбуке и заполните пропущенные ячейки (см. ячейки с текстом «Code», «Упражнение», «Задание для
+						самостоятельной работы», «#TODO»).
+						Создать ячейку с заголовком "Отчет" (или "Результаты") внизу борда и описать полученные результаты, указать ответы для
+						"Задания для самостоятельной работы".
+					</p>
+					<div class="btn_container_prog">
+						<a href="https://colab.research.google.com/drive/1EnFfybJg5lJmHdLOwBqAYuapYH5KMaXd?usp=sharing"
+							class="btn_prog" target="_blank">Laboratory work 1</a>
+					</div>
+				</div>
+				<div class="desc-right_prog">
+					<img src="img/home21.jpg" alt="Description of the image" class="image_prog">
+					<h3 style="text-align: center;">Laboratory work 2</h3>
+					<p style="text-indent: 25px;">
+						Решите задачу классификации с помощью использования 2 моделей: логистической регрессии и XGBoost.
+					</p>
+					<p style="text-indent: 25px;">
+						Сделайте копию задания 
+						<a href="https://colab.research.google.com/drive/1rFiizzEHVQS36sOFDhZGxiNypxCjGYsj?usp=sharing"
+							target="_blank" style="color: #000;"><b>s2p2-xgboost-logistic-regression.ipynb</b></a>,
+						получив собственный ноутбук с помощью сервиса Google
+						Colab и изучите материал, представленный в ноутбуке.
+						Выполните все ячейки в ноутбуке и заполните пропущенные ячейки (см. ячейки с текстом «Code», «Упражнение», «Задание для
+						самостоятельной работы», «#TODO»).
+						Создать ячейку с заголовком "Отчет" (или "Результаты") внизу борда и описать полученные результаты, указать ответы для
+						"Задания для самостоятельной работы".
+					</p>
+					<div class="btn_container_prog">
+						<a href="https://colab.research.google.com/drive/1EnFfybJg5lJmHdLOwBqAYuapYH5KMaXd?usp=sharing"
+							class="btn_prog" target="_blank">Laboratory work 2</a>
+					</div>
+				</div>
+			</div>
+			<div class="description">
+				<div class="desc-left_prog">
+					<img src="img/home23.jpg" alt="Description of the image" class="image_prog">
+					<h3 style="text-align: center;">Laboratory work 3</h3>
+					<p style="text-indent: 25px;">
+						Объединитесь в группы до 5 человек и подготовьте 20-30-минутное сообщение с обзором одной современной IDE. Выберите из
+						списка: IntelliJ IDEA, Visual Studio Code, Visual Studio, NetBeans, Eclipse, Brackets, NeoVim. Рассмотрите функции по
+						этапам разработки (проектирование, кодирование, тестирование, внедрение). Демонстрируйте создание проекта, кодирование,
+						форматирование кода, отладку, запуск, компиляцию, публикацию в репозитории и интеграцию с системами хранения кода.
+						Представьте результаты в презентации с использованием облачного хранилища. Укажите свой вклад и состав группы. &#x2605;
+					</p>
+					<div class="btn_container_prog">
+						<a href="https://drive.google.com/drive/folders/115_GDTbCJc7iy2cScTz5YOTcSK1fJKTK?usp=sharing"
+							class="btn_prog" target="_blank">Laboratory work 3</a>
+					</div>
+				</div>
+				<div class="desc-right_prog">
+					<img src="img/home22.jpg" alt="Description of the image" class="image_prog">
+					<h3 style="text-align: center;">Laboratory work 4</h3>
+					<p style="text-indent: 25px;">
+						На основе диаграммы прецедентов (вариантов использования, созданной на занятии 1.11.23., создать одну или несколько
+						диаграмм последовательности для тех прецедентов, которые были созданы на схеме
+						<a href="https://drive.google.com/file/d/1Joez_nIL-s8Sy0h1u2S8oAjwzA9hgwEu/view?usp=sharing" target="_blank"
+							style="color: #000;"><b>Use case diagram (MCHS).drawio</b></a>
+					</p>
+					<p style="text-indent: 25px;">
+						В качестве источника информации требуется прочитать главу 19 из 
+						<a href="https://moodle.herzen.spb.ru/mod/lanebs/view.php?id=1117293" target="_blank"
+							style="color: #000;"><b>книги</b></a>,
+						опубликованной в курсе мудл и
+						посмотреть опубликованную 
+						<a href="https://moodle.herzen.spb.ru/pluginfile.php/1612195/mod_resource/content/1/UML.pdf" target="_blank"
+							style="color: #000;"><b>презентацию</b></a>
+						 преподавателя.
+					</p>
+					<div class="btn_container_prog">
+						<a href="https://drive.google.com/drive/folders/1ooHVgdJMI_6YgczKf0VOQTRcxFO_NCuz?usp=sharing"
+							class="btn_prog" target="_blank">Laboratory work 4</a>
+					</div>
+				</div>
+			</div>
+			<p>&#x2605; - The assignment was not provided accurately or in full format!</p>
+		</div>
+	</section>
+	<footer id="footer" class="footer">
+		<div class="container">
+			<div class="footer-text">
+				<p>
+					©2023 Web-Portfolio
+				</p>
+				<p>
+					Ivan Buryakov
+				</p>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
